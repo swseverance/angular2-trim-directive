@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="addab58e-6923-45dc-b38e-e22fee83c3e1" name="Default" comment="" />
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/dist/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="345">
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="594">
+              <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/src/app/app.module.ts">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/example/src/index.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="input-trim.directive.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/input-trim.directive.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="111" column="35" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#108#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="package.json" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="666">
+              <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>\^([0-9]*\.?)*</find>
+      <find>@angular/cli</find>
+      <find>1.6.3@angular/common</find>
+      <find>@angular/common</find>
+      <find>@angular/compiler</find>
+      <find>@angular/platform-browser-dynamic</find>
+      <find>@ngtools/webpack</find>
+      <find>@types/jasmine</find>
+      <find>codelyzer</find>
+      <find>jasmine-core</find>
+      <find>karma</find>
+      <find>karma-chrome-launcher</find>
+      <find>karma-cli</find>
+      <find>karma-coverage-istanbul-reporter</find>
+      <find>karma-jasmine</find>
+      <find>karma-jasmine-html-reporter</find>
+      <find>karma-phantomjs-launcher</find>
+      <find>rxjs</find>
+      <find>tslint</find>
+      <find>typescript</find>
+      <find>webpack</find>
+      <find>webpack@</find>
+      <find>zone.js@</find>
+      <find>root</find>
+      <find>5.1.3</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>*</replace>
+      <replace>4.4.0</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="path_1" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/example/src/tsconfig.json" />
+        <option value="$PROJECT_DIR$/example/src/index.html" />
+        <option value="$PROJECT_DIR$/example/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/example/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/example/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/test/form.td.spec.ts" />
+        <option value="$PROJECT_DIR$/test/form.reactive.spec.ts" />
+        <option value="$PROJECT_DIR$/src/input-trim.module.ts" />
+        <option value="$PROJECT_DIR$/tslint.json" />
+        <option value="$PROJECT_DIR$/.editorconfig" />
+        <option value="$PROJECT_DIR$/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/.angular-cli.json" />
+        <option value="$PROJECT_DIR$/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/tsconfig.json" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/input-trim.directive.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths>
+      <path value="$PROJECT_DIR$/package.json" />
+    </packageJsonPaths>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="34" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <autoscrollFromSource ProjectPane="true" />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="angular2-trim-directive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular2-trim-directive" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular2-trim-directive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular2-trim-directive" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular2-trim-directive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular2-trim-directive" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular2-trim-directive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular2-trim-directive" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular2-trim-directive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular2-trim-directive" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="angular2-trim-directive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="angular2-trim-directive" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Changed Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="angular2-trim-directive" type="cbb8eebc:String" user="angular2-trim-directive" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="angular2-trim-directive" type="cbb8eebc:String" user="angular2-trim-directive" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="angular2-trim-directive" type="cbb8eebc:String" user="angular2-trim-directive" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="SearchEverywhereHistoryKey" value="opti&#9;ACTION&#9;OptimizeImports" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="javascript.karma.karma_node_package_dir" value="$PROJECT_DIR$/node_modules/karma" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.tslint" value="$PROJECT_DIR$/node_modules/tslint" />
+    <property name="nodejs_package_manager_path" value="yarn" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+    <property name="typescript-compiler-editor-notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/example/dist" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="npm.eg:build">
+    <configuration default="true" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" port="4200" />
+    <configuration name="Tests: Reactive Form" type="JavaScriptTestRunnerKarma" factoryName="Karma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-names>
+        <test-name value="Tests: Reactive Form" />
+      </test-names>
+    </configuration>
+    <configuration name="Tests: Template-Driven Form" type="JavaScriptTestRunnerKarma" factoryName="Karma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="SUITE" />
+      <test-names>
+        <test-name value="Tests: Template-Driven Form" />
+      </test-names>
+    </configuration>
+    <configuration name="form.td.spec.ts" type="JavaScriptTestRunnerKarma" factoryName="Karma" temporary="true" nameIsGenerated="true">
+      <config-file value="$PROJECT_DIR$/karma.conf.js" />
+      <karma-package-dir value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <scope-kind value="TEST_FILE" />
+      <test-file-path value="$PROJECT_DIR$/test/form.td.spec.ts" />
+    </configuration>
+    <configuration name="AngularCLI" type="JavascriptDebugType" factoryName="JavaScript Debug" uri="http://localhost:4200/" />
+    <configuration name="eg:build" type="js.build_tools.npm" factoryName="npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="eg:build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.AngularCLI" />
+      <item itemvalue="Karma.Tests: Reactive Form" />
+      <item itemvalue="Karma.Tests: Template-Driven Form" />
+      <item itemvalue="Karma.form.td.spec.ts" />
+      <item itemvalue="npm.eg:build" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.eg:build" />
+        <item itemvalue="Karma.Tests: Template-Driven Form" />
+        <item itemvalue="Karma.Tests: Reactive Form" />
+        <item itemvalue="Karma.form.td.spec.ts" />
+        <item itemvalue="Karma.form.td.spec.ts" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="addab58e-6923-45dc-b38e-e22fee83c3e1" name="Default" comment="" />
+      <created>1513965017319</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1513965017319</updated>
+      <workItem from="1513965018476" duration="8475000" />
+      <workItem from="1514904311280" duration="26000" />
+      <workItem from="1514904359621" duration="7940000" />
+      <workItem from="1514978853094" duration="26329000" />
+      <workItem from="1515095881338" duration="12000" />
+      <workItem from="1515097436576" duration="8491000" />
+      <workItem from="1515159752413" duration="604000" />
+      <workItem from="1515164944182" duration="18772000" />
+      <workItem from="1515236196967" duration="1613000" />
+      <workItem from="1515260512449" duration="9945000" />
+      <workItem from="1515337896921" duration="9000" />
+      <workItem from="1515407671074" duration="3651000" />
+      <workItem from="1515430940435" duration="5450000" />
+      <workItem from="1515580965359" duration="13000" />
+      <workItem from="1515581163229" duration="5000" />
+      <workItem from="1515586408010" duration="6572000" />
+      <workItem from="1515659711414" duration="339000" />
+      <workItem from="1516799363650" duration="21000" />
+      <workItem from="1518019705540" duration="3000" />
+      <workItem from="1521390818830" duration="1301000" />
+      <workItem from="1529209941093" duration="743000" />
+      <workItem from="1529210696915" duration="124000" />
+      <workItem from="1529210911840" duration="2981000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Tests__Reactive_Form - 2018.01.05 at 23h 25m 06s.xml">
+      <configuration name="Tests: Reactive Form" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="Tests__Reactive_Form - 2018.01.05 at 23h 25m 44s.xml">
+      <configuration name="Tests: Reactive Form" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="Tests__Reactive_Form - 2018.01.05 at 23h 32m 36s.xml">
+      <configuration name="Tests: Reactive Form" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="Tests__Template-Driven_Form - 2018.01.05 at 23h 25m 53s.xml">
+      <configuration name="Tests: Template-Driven Form" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="Tests__Template-Driven_Form - 2018.01.05 at 23h 28m 31s.xml">
+      <configuration name="Tests: Template-Driven Form" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="Tests__Template-Driven_Form - 2018.01.05 at 23h 29m 00s.xml">
+      <configuration name="Tests: Template-Driven Form" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="form_td_spec_ts - 2018.01.05 at 23h 25m 25s.xml">
+      <configuration name="form.td.spec.ts" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="Tests__Reactive_Form - 2018.06.17 at 08h 11m 59s.xml">
+      <configuration name="Tests: Reactive Form" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="Tests__Template-Driven_Form - 2018.06.17 at 08h 12m 09s.xml">
+      <configuration name="Tests: Template-Driven Form" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+    <history-entry file="Tests__Template-Driven_Form - 2018.06.17 at 08h 12m 42s.xml">
+      <configuration name="Tests: Template-Driven Form" configurationId="JavaScriptTestRunnerKarma" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="103419000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="34" width="3840" height="2126" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info anchor="bottom" id="TypeScript" order="7" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19469956" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50039357" side_tool="true" weight="0.32960895" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4996064" weight="0.32960895" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32960895" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39959225" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>http://localhost:4200/main.bundle.js</url>
+          <line>189</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>http://localhost:4200/main.bundle.js</url>
+          <line>190</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="9" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="900">
+          <caret line="30" column="28" lean-forward="true" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/environment.prod.ts" />
+    <entry file="file://$PROJECT_DIR$/config/environments/environment.ts" />
+    <entry file="file://$PROJECT_DIR$/src/input-trim.module.ngfactory.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/platform-browser/animations/src/animation_renderer.d.ts" />
+    <entry file="http://localhost:4200/main.bundle.js">
+      <provider selected="true" editor-type-id="httpFileEditor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/core/src/render/api.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/core/src/di/injection_token.d.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/forms/src/directives/control_value_accessor.d.ts" />
+    <entry file="file://$PROJECT_DIR$/example/src/tsconfig.json" />
+    <entry file="file://$PROJECT_DIR$/karma.conf.js" />
+    <entry file="file://$PROJECT_DIR$/tsconfig.spec.json" />
+    <entry file="file://$PROJECT_DIR$/yarn.lock" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/forms/src/directives/default_value_accessor.d.ts" />
+    <entry file="file://$PROJECT_DIR$/example/src/polyfills.ts" />
+    <entry file="file://$PROJECT_DIR$/main.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/example/dist/index.html" />
+    <entry file="file://$PROJECT_DIR$/dist/src/index.js" />
+    <entry file="file://$PROJECT_DIR$/src/index.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/@angular/cli/package.json" />
+    <entry file="file://$PROJECT_DIR$/inline.bundle.js" />
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tslint.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-14">
+          <caret line="6" column="41" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.editorconfig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" column="31" lean-forward="true" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.html" />
+    <entry file="file://$PROJECT_DIR$/index.html" />
+    <entry file="file://$PROJECT_DIR$/node_modules/ng2-trim-directive/dist/input-trim.module.ngfactory.d.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ng2-trim-directive/dist/input-trim.module.metadata.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.html" />
+    <entry file="file://$PROJECT_DIR$/src/app/app.component.ts" />
+    <entry file="file://$PROJECT_DIR$/src/app/app.module.ts" />
+    <entry file="file://$PROJECT_DIR$/node_modules/ng2-trim-directive/dist/input-trim.directive.ngsummary.json" />
+    <entry file="file://$PROJECT_DIR$/node_modules/ng2-trim-directive/dist/input-trim.directive.metadata.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ng2-trim-directive/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main.ts" />
+    <entry file="file://$PROJECT_DIR$/.angular-cli.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="522">
+          <caret line="29" column="14" selection-start-line="29" selection-start-column="14" selection-end-line="29" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.npmignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/input-trim.evens.ts" />
+    <entry file="file://$PROJECT_DIR$/src/input-trim.module.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/form.td.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/form.reactive.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="30" column="7" selection-start-line="30" selection-start-column="7" selection-end-line="30" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/tests.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/input-trim.directive.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="111" column="35" selection-start-line="111" selection-start-column="35" selection-end-line="111" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#108#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="33" column="13" selection-start-line="33" selection-start-column="13" selection-end-line="33" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/index.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/example/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="666">
+          <caret line="37" column="50" lean-forward="true" selection-start-line="37" selection-start-column="50" selection-end-line="37" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
