@@ -11,6 +11,17 @@ import { COMPOSITION_BUFFER_MODE, DefaultValueAccessor, NG_VALUE_ACCESSOR } from
 } )
 export class InputTrimDirective extends DefaultValueAccessor {
 
+  @Input()
+  set trim( value: 'input' | 'blur' ) {
+    this._trim = value || 'input';
+  }
+
+  get trim() {
+    return this._trim;
+  }
+
+  private _trim;
+
   /**
    * Keep the type of input element in a cache.
    *
@@ -31,17 +42,14 @@ export class InputTrimDirective extends DefaultValueAccessor {
   private _sourceRenderer: Renderer2;
   private _sourceElementRef: ElementRef;
 
-  // Get a value of the trim attribute if it was set.
-  @Input() trim: string;
-
-  // Get the element type
   @Input()
-  get type(): string {
-    return this._type;
-  }
-
   set type( value: string ) {
     this._type = value || 'text';
+  }
+
+  // Get the element type
+  get type(): string {
+    return this._type;
   }
 
   /**
@@ -75,13 +83,14 @@ export class InputTrimDirective extends DefaultValueAccessor {
   /**
    * Updates the value on the blur event.
    */
-  @HostListener( 'blur', ['$event.type', '$event.target.value'] )
-  onBlur( event: string, value: string ): void {
+  @HostListener( 'blur', ['$event.target.value'] )
+  onBlur( value: string ): void {
+    const trimmedValue = value.trim();
 
     // update value if only changed
     // FIX: https://github.com/anein/angular2-trim-directive/issues/17
-    if (value.trim() !== this.value) {
-      this.updateValue( event, value );
+    if (trimmedValue !== this.value) {
+      this.value = trimmedValue;
     }
 
     this.onTouched();
@@ -90,9 +99,12 @@ export class InputTrimDirective extends DefaultValueAccessor {
   /**
    * Updates the value on the input event.
    */
-  @HostListener( 'input', ['$event.type', '$event.target.value'] )
-  onInput( event: string, value: string ): void {
-    this.updateValue( event, value );
+  @HostListener( 'input', ['$event.target.value'] )
+  onInput( value: string ): void {
+    if (this.trim !== 'input') return;
+
+    // remove whitespace from start of string only
+    this.value = value.replace(/^\s+/, '');
   }
 
   constructor( @Inject( Renderer2 ) renderer: Renderer2,
@@ -124,19 +136,6 @@ export class InputTrimDirective extends DefaultValueAccessor {
     if (this._type !== 'text') {
       this._sourceRenderer.setAttribute( this._sourceElementRef.nativeElement, 'value', value );
     }
-
-  }
-
-  /**
-   * Trims an input value, and sets it to the model and element.
-   *
-   * @param {string} value - input value
-   * @param {string} event - input event
-   */
-  private updateValue( event: string, value: string ): void {
-
-    // check if the user has set an optional attribute. Trimmmm!!! Uhahahaha!
-    this.value = (this.trim !== '' && event !== this.trim) ? value : value.trim();
 
   }
 

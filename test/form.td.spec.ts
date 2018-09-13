@@ -26,6 +26,7 @@ class TemplateDrivenFormComponent {
 
 }
 
+// tslint:disable:max-line-length
 describe( 'Tests: Template-Driven Form', () => {
 
   let componentInstance: TemplateDrivenFormComponent;
@@ -36,6 +37,8 @@ describe( 'Tests: Template-Driven Form', () => {
 
   const value: string = 'Bob';
   const valueWithWhitespaces = 'Bob   ';
+  const valueWithLeadingAndTrailingWhitespace = '  Bob ';
+  const valueWithTrailingWhitespace = 'Bob ';
 
   beforeEach( () => {
 
@@ -84,9 +87,9 @@ describe( 'Tests: Template-Driven Form', () => {
 
     beforeEach( () => createComponentHelper() );
 
-    it( 'should trim whitespaces from the end on the INPUT event', () => {
+    it( 'should trim whitespaces from the beginning on the INPUT event', () => {
 
-      componentInstance.exampleModel.control.setValue( valueWithWhitespaces );
+      componentInstance.exampleModel.control.setValue( valueWithLeadingAndTrailingWhitespace );
 
       let el = fixture.debugElement.query( By.css( 'i' ) ).nativeElement;
       expect( el.textContent ).toContain( 'Example Pristine' );
@@ -95,8 +98,8 @@ describe( 'Tests: Template-Driven Form', () => {
 
       fixture.detectChanges();
 
-      expect( inputElement.value ).toBe( value, 'Input value is not trimmed' );
-      expect( componentInstance.example ).toBe( value, 'Model is not trimmed' );
+      expect( inputElement.value ).toBe( valueWithTrailingWhitespace, 'Input value is not trimmed' );
+      expect( componentInstance.example ).toBe( valueWithTrailingWhitespace, 'Model is not trimmed' );
       expect( componentInstance.example ).toBe( inputElement.value );
 
       el = fixture.debugElement.query( By.css( 'i' ) ).nativeElement;
@@ -132,9 +135,9 @@ describe( 'Tests: Template-Driven Form', () => {
 
     } );
 
-    it( 'should trim whitespaces from the end on the BLUR event', () => {
+    it( 'should trim whitespace on the BLUR event', () => {
 
-      componentInstance.exampleModel.control.setValue( valueWithWhitespaces );
+      componentInstance.exampleModel.control.setValue( valueWithLeadingAndTrailingWhitespace );
 
       fixture.detectChanges();
 
@@ -177,18 +180,17 @@ describe( 'Tests: Template-Driven Form', () => {
 
     it( 'should trim a value w/ whitespaces on two-way binding.', fakeAsync( () => {
 
-      componentInstance.example = valueWithWhitespaces;
+      componentInstance.example = valueWithLeadingAndTrailingWhitespace;
 
       fixture.detectChanges();
       tick();
 
-      // tslint:disable-next-line: max-line-length
       expect( componentInstance.example ).toBe( inputElement.value, 'Value of model and input is the same' );
 
       inputElement.dispatchEvent( new Event( 'input' ) );
 
-      expect( inputElement.value ).toBe( value, 'Input value is not trimmed' );
-      expect( componentInstance.example ).toBe( value, 'Model is not trimmed' );
+      expect( inputElement.value ).toBe( valueWithTrailingWhitespace, 'Input value is not trimmed' );
+      expect( componentInstance.example ).toBe( valueWithTrailingWhitespace, 'Model is not trimmed' );
 
     } ) );
 
@@ -211,14 +213,29 @@ describe( 'Tests: Template-Driven Form', () => {
 
     it( 'should not trim whitespaces from the end on the INPUT event ', () => {
 
-      componentInstance.example = inputElement.value = valueWithWhitespaces;
+      componentInstance.example = inputElement.value = valueWithLeadingAndTrailingWhitespace;
 
       inputElement.dispatchEvent( new Event( 'input' ) );
 
       fixture.detectChanges();
 
       expect( inputElement.value ).not.toBe( value, 'Input value is trimmed' );
-      expect( componentInstance.example ).toBe( valueWithWhitespaces, 'Model is trimmed' );
+      expect( componentInstance.example ).toBe( valueWithLeadingAndTrailingWhitespace, 'Model is trimmed' );
+
+      expect( componentInstance.example ).toBe( inputElement.value );
+
+    } );
+
+    it( 'should not trim whitespaces from the beginning on the INPUT event ', () => {
+
+      componentInstance.example = inputElement.value = valueWithLeadingAndTrailingWhitespace;
+
+      inputElement.dispatchEvent( new Event( 'input' ) );
+
+      fixture.detectChanges();
+
+      expect( inputElement.value ).not.toBe( 'Bob', 'Input value is trimmed' );
+      expect( componentInstance.example ).toBe( valueWithLeadingAndTrailingWhitespace, 'Model is trimmed' );
 
       expect( componentInstance.example ).toBe( inputElement.value );
 
@@ -252,9 +269,9 @@ describe( 'Tests: Template-Driven Form', () => {
 
     } );
 
-    it( 'should trim whitespaces from the end on the BLUR event', () => {
+    it( 'should trim whitespace on the BLUR event', () => {
 
-      componentInstance.exampleModel.control.setValue( valueWithWhitespaces );
+      componentInstance.exampleModel.control.setValue( valueWithLeadingAndTrailingWhitespace );
 
       fixture.detectChanges();
 
